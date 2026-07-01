@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: todo-pvc
 spec:
+  volumeName: todo-pv
   accessModes:
     - ReadWriteMany
   storageClassName: standard

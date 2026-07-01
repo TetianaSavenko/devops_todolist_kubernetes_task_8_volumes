@@ -7,5 +7,5 @@ kubectl apply -f pv.yml
 echo "=== Applying PersistentVolumeClaim ==="
 kubectl apply -f pvc.yml
 
-echo "=== Applying Deployment & other resources ==="
+echo "=== Applying all infrastructure resources (Deployment, ConfigMap, Secret, etc.) ==="
 kubectl apply -f .infrastructure/
